@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<start-class>com.tudai.bolivar.SeminarioMongoTpFinalApplication</start-class>
 	</properties>
 
 	<dependencies>
