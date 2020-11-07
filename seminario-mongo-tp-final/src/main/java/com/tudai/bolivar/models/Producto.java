@@ -1,6 +1,5 @@
 package com.tudai.bolivar.models;
 
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -33,6 +32,13 @@ public class Producto {
 		this.stock = stock;
 		this.precio = precio;
 	}
-	
+
+	public Producto(String id, String nombre, int stock, double precio) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.stock = stock;
+		this.precio = precio;
+	}
 	
 }
