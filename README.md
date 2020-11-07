@@ -8,4 +8,4 @@
 4) Tener instalada la verion de Java 11 en Eclipse.
 
 ## Siguiendo con lo anterior veremos como integrar el proyecto a continuacion:
-![Paso 1](/image1.png)
+![Paso 1](/img/image1.png)
