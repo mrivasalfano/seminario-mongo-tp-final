@@ -8,9 +8,12 @@
 4) Tener instalada la verion de Java 11 en Eclipse.
 
 ## Siguiendo con lo anterior veremos como integrar el proyecto a continuacion:  
-> Vista previa de como se deberia ver una vez abierto el Eclipse
+> Vista previa de como se deberia ver una vez abierto el Eclipse  
+  
 ![Paso 1](/img/image1.png)  
-
+  
+  
 > para integrar el proyecto en Eclipse lo primero que hacemos es ir a la pestaña de arriba:  
 Window->Show View->Other...  
+  
 ![Paso 2](/img/image11.png)
