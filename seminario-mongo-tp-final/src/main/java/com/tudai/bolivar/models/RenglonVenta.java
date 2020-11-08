@@ -2,8 +2,10 @@ package com.tudai.bolivar.models;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter @Setter
+@ToString
 public class RenglonVenta {
 
 	private Producto producto;
@@ -20,8 +22,12 @@ public class RenglonVenta {
 		this.producto = producto;
 		this.cantidad = cantidad;
 		this.precioUnitario = producto.getPrecio();
-		this.total = cantidad * precioUnitario;
+		this.total = this.cantidad * this.precioUnitario;
 	}
 	
-	
+	public double getTotal() {
+		this.precioUnitario = this.producto.getPrecio();
+		this.total = this.cantidad * this.precioUnitario;
+		return this.total;
+	}
 }

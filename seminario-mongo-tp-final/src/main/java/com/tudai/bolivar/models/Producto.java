@@ -23,19 +23,9 @@ public class Producto {
 	private @NonNull double precio;
 
 	public Producto() {
-		
 	}
 
 	public Producto(String nombre, int stock, double precio) {
-		super();
-		this.nombre = nombre;
-		this.stock = stock;
-		this.precio = precio;
-	}
-
-	public Producto(String id, String nombre, int stock, double precio) {
-		super();
-		this.id = id;
 		this.nombre = nombre;
 		this.stock = stock;
 		this.precio = precio;

@@ -42,7 +42,8 @@ public class ProductoController {
     }
 	
 	@PostMapping("/")
-	public Producto addProducto(Producto p) {
+	public Producto addProducto(@RequestBody Producto p) {
+		System.out.println(p);
 		return repository.save(p);
 	}
 	

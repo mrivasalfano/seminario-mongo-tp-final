@@ -24,7 +24,6 @@ public class Venta {
 	private @NonNull String direccionEntrega;
 	
 	public Venta() {
-		super();
 	}
 	
 	public Venta(String direccionEntrega) {
@@ -35,7 +34,6 @@ public class Venta {
 	}
 	
 	public Venta(List<RenglonVenta> productos, String direccionEntrega) {
-		super();
 		this.productos = new ArrayList<RenglonVenta>();
 		this.precioTotal = 0;
 		this.calcularPrecio(productos);
@@ -52,6 +50,12 @@ public class Venta {
 	public boolean addProducto(RenglonVenta p) {
 		this.precioTotal += p.getTotal();
 		return this.productos.add(p);
+	}
+	
+	public void setearPrecios() {
+		for (RenglonVenta producto : this.productos) {
+			this.precioTotal += producto.getTotal();
+		}
 	}
 	
 }
