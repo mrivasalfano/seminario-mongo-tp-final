@@ -31,16 +31,24 @@ Se puede guardar los datos de usuario y contraseña de GitHub si se quiere pero 
   
 > Aca simplemente hacer click en `Next`  
   
-![Paso 6](/img/image2.png)  
+![Paso 7](/img/image2.png)  
   
 > Tildar las opciones `Import all existing Eclipse projects after clone finishes` y `Add project to working sets` y finalmente hacer click en `Finish`.  
   
-![Paso 6](/img/image13.png)  
+![Paso 8](/img/image13.png)  
   
 > Se vera que aparece el proyecto en la ventana inferior izquierda de la pantalla  
   
-![Paso 6](/img/image12.png)  
+![Paso 9](/img/image12.png)  
   
 > En caso de que no se muestre el proyecto en el directorio de projectos, hacer click derecho donde se muestra en la imagen y ir a `import Projects...`  
   
-![Paso 6](/img/image15.png)
+![Paso 10](/img/image15.png)  
+  
+> Se deja todo como esta y simplemente seleccionar en el boton `Finish`  
+  
+![Paso 11](/img/image10.png)  
+  
+> Se tendria que ver como se muestra a continuacion el proyecto integrado ahora si en el directorio de projectos.  
+  
+![Paso 12](/img/image7.png)  
