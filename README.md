@@ -36,3 +36,19 @@ https://github.com/mrivasalfano/seminario-mongo-tp-final.git y se autocompletara
 Se puede guardar los datos de usuario y contraseña de GitHub si se quiere pero por primera vez lo va a tener que cargar si o si.
 
 ![Paso 6](/img/image9.png)
+  
+> Aca simplemente hacer click en `Next`  
+  
+![Paso 6](/img/image2.png)  
+  
+> Tildar las opciones `Import all existing Eclipse projects after clone finishes` y `Add project to working sets` y finalmente hacer click en `Finish`.  
+  
+![Paso 6](/img/image13.png)  
+  
+> Se vera que aparece el proyecto en la ventana inferior izquierda de la pantalla  
+  
+![Paso 6](/img/image12.png)  
+  
+### Referencias:
+https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.conventions.id-field
+https://spring.io/guides/gs/accessing-data-mongodb/
