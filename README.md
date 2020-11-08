@@ -1,16 +1,15 @@
 # Seminario MongoDB - Trabajo Practico Final
 
-## Primeros pasos
+En este repositorio se encuentra el trabajo final del seminario de MongoDB, dictado por Nicolás Tourné para la carrera TUDAI.  
+
+## Requisitos para levantar el ambiente
 
 1) Necesitaremos tener instalado Eclipse.
-2) Tambien integrado en el Tomcat para correr el codigo en ese servidor.
-3) Instalar Spring Tools 4 desde el marketplace integrado en Eclipse IDE.
-4) Tener instalada la verion de Java 11 en Eclipse.
-
-## Siguiendo con lo anterior veremos como integrar el proyecto a continuacion:  
+2) Instalar Spring Tools 4 desde el marketplace integrándolo en Eclipse IDE.
+3) Tener instalado mínimo la versión 11 de Java.
   
-[Como levantar el ambiente](LevantarAmbiente.md)
+[Cómo levantar el ambiente](LevantarAmbiente.md)
   
-### Referencias:
-https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.conventions.id-field
-https://spring.io/guides/gs/accessing-data-mongodb/
+### Referencias utilizadas:
+- https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.conventions.id-field
+- https://spring.io/guides/gs/accessing-data-mongodb/
