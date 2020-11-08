@@ -7,8 +7,10 @@ En este repositorio se encuentra el trabajo final del seminario dictado por Nico
 1) IDE Eclipse.
 2) Instalar Spring Tools 4 desde el marketplace de Eclipse.
 3) Mínimo tener la versión 11 de Java.
-  
-[Cómo levantar el ambiente](LevantarAmbiente.md)
+
+### Utilizacion de la aplicacion:
+- [Cómo levantar el ambiente](LevantarAmbiente.md)
+- [Levantar proyecto y utilzar la API](LevantarProyecto.md)
   
 ### Referencias utilizadas:
 - https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.conventions.id-field
