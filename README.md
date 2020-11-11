@@ -16,3 +16,7 @@ En este repositorio se encuentra el trabajo final del seminario dictado por Nico
 ### Referencias utilizadas:
 - https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mapping.conventions.id-field
 - https://spring.io/guides/gs/accessing-data-mongodb/
+
+Desarrollado por Luciano Martin D'Agata Villa y Manuel Rivas Alfano.
+
+TUDAI 2020
