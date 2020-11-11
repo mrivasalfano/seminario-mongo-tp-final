@@ -1,6 +1,6 @@
 # Seminario MongoDB - Trabajo Practico Final
 
-En este repositorio se encuentra el trabajo final del seminario dictado por Nicolás Tourné para la carrera TUDAI.  
+En este repositorio se encuentra el trabajo final del seminario dictado por Nicolás Tourné para la carrera TUDAI, con la ayuda y coordinación de Javier Dottori.
 
 ## Requisitos para levantar el ambiente
 
