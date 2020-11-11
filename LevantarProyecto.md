@@ -11,3 +11,15 @@
 > Al ir a un navegador de internet como por ejemplo el Chrome, ponemos en la URL: `localhost:8080` y si nos muestra un mensaje como se ve en la imagen la aplicacion esta corriendo correctamente.  
   
 ![Paso 3](/img/image21.png)
+
+La API cuenta con los siguientes recursos:
+
+| Método | ENDPOINT         | Descripción                     |
+|--------|------------------|---------------------------------|
+| GET    | /productos/      | Lista todos los productos       |
+| GET    | /productos/{id}/ | Lista un producto en particular |
+| POST   | /productos/      | Agrega un producto              |
+| PUT    | /productos/      | Actualiza un producto           |
+| DELETE | /productos/      | Elimina un producto             |
+| GET    | /ventas/         | Lista todas las ventas          |
+| POST   | /ventas/         | Agrega una venta                |
