@@ -43,15 +43,15 @@ Se puede guardar los datos de usuario y contraseña de GitHub si se quiere pero 
   
 ![Paso 9](/img/image12.png)  
   
-> En caso de que no se muestre el proyecto en el directorio de projectos, hacer click derecho donde se muestra en la imagen y ir a `import Projects...`  
+> En caso de que no se muestre el proyecto en el directorio de proyectos, hacer click derecho donde se muestra en la imagen e ir a `import Projects...`  
   
 ![Paso 10](/img/image15.png)  
   
-> Se deja todo como esta y simplemente seleccionar en el boton `Finish`  
+> Se deja todo como esta y simplemente seleccionar el boton `Finish`  
   
 ![Paso 11](/img/image10.png)  
   
-> Se tendria que ver como se muestra a continuacion el proyecto integrado ahora si en el directorio de projectos en `Project Explorer`.  
+> Se tendria que ver como se muestra a continuacion el proyecto integrado ahora si en el directorio de proyectos en `Project Explorer`.  
   
 ![Paso 12](/img/image7.png)
 
