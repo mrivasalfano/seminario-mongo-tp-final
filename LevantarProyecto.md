@@ -18,8 +18,46 @@ La API cuenta con los siguientes recursos:
 |--------|------------------|---------------------------------|
 | GET    | /productos/      | Lista todos los productos       |
 | GET    | /productos/{id}/ | Lista un producto en particular |
-| POST   | /productos/      | Agrega un producto              |
-| PUT    | /productos/      | Actualiza un producto           |
-| DELETE | /productos/      | Elimina un producto             |
+| POST   | /productos/      | Agrega un producto **(1)**      |
+| PUT    | /productos/      | Actualiza un producto **(2)**   |
+| DELETE | /productos/{id}  | Elimina un producto             |
 | GET    | /ventas/         | Lista todas las ventas          |
-| POST   | /ventas/         | Agrega una venta                |
+| POST   | /ventas/         | Agrega una venta **(3)**        |
+
+**(1)** En el body iría un JSON con este formato ignorando el ID ya que se autogenera:
+
+```
+{  
+    "nombre": "Ejemplo",  
+    "stock": 99,  
+    "precio": 59.99  
+}
+```
+
+**(2)** Parecido al POST solo que el ID sí lo tenemos:
+
+```
+{  
+    "id": "5fac70a3fd2c1206abb48a91",  
+    "nombre": "Ejemplo",  
+    "stock": 999,  
+    "precio": 9999.99  
+}
+```
+
+**(3)** El JSON a enviar tiene este formato:
+
+```
+{
+    "productos": [{
+        "producto": {
+            "id": "5fac70a3fd2c1206abb48a91",
+            "nombre": "Ejemplo",
+            "stock": 999,
+            "precio": 9999.99
+        },
+        "cantidad": 5
+    }],
+    "direccionEntrega": "Av.Belgrano 1001"
+}
+```
