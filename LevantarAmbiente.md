@@ -51,4 +51,8 @@ Se puede guardar los datos de usuario y contraseña de GitHub si se quiere pero 
   
 > Se tendria que ver como se muestra a continuacion el proyecto integrado ahora si en el directorio de projectos en `Project Explorer`.  
   
-![Paso 12](/img/image7.png)  
+![Paso 12](/img/image7.png)
+
+[Volver a README](README.md)
+
+[Levantar proyecto y usar la API](LevantarProyecto.md)
